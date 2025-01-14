@@ -32,7 +32,7 @@ const ContactUs = () => {
               TN - 641671<br />
             </p>
             <p className="mb-2">
-              Email: {"info@mythilicoirs.in"}
+              Email: {" "}
               <a
                 href="mailto:info@mythilicoirs.in"
                 className="text-blue-500 hover:underline"
