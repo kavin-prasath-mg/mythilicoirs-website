@@ -13,7 +13,7 @@ const ImpactStatistics = () => {
   // Mock data for demonstration - replace with actual API call
   const mockStatistics = {
     fiberBaleDispatched: 25000,
-    coirPithQuantity: 50000,
+    coirPithQuantity: 10,
     huskConsumed: 100000,
     ordersDispatched: 2500,
   };
@@ -52,7 +52,7 @@ const ImpactStatistics = () => {
     {
       value: statistics.coirPithQuantity,
       label: "Coir Pith Produced",
-      unit: "kg",
+      unit: "Mn Kg",
       icon: <FaSeedling />,
       color: "emerald",
       gradient: "from-emerald-400 to-emerald-600",
